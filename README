@@ -1,3 +1,9 @@
+NOTE: This repo has moved to
+https://git.openstack.org/cgit/openstack-infra/zmq-event-publisher.
+Changes can be proposed to https://review.openstack.org and bugs filed
+at https://bugs.launchpad.net/openstack-ci.
+
+
 This is a Jenkins plugin that will publish Jenkins Job run events
 (start, complete, finish) to a ZMQ PUB socket. By default the PUB
 socket is on TCP port 8888 and no Job events will be published.
